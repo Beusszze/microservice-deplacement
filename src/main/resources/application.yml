@@ -1,0 +1,16 @@
+spring:
+  data:
+    mongodb:
+      database: deplacements
+      host: localhost
+      port: 27017
+
+server:
+  port: 8082
+
+envInf:
+  uri: http://localhost:8080
+
+envPat:
+  uri: http://localhost:8081
+
